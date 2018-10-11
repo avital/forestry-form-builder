@@ -22,5 +22,23 @@ label = "What topics would you want to plan DFL classes on?"
 name = "topics"
 template = "textarea"
 type = "textarea"
+[[form.sections]]
+title = "Commitment"
+[[form.sections.fields]]
+label = "How much weekly time can you spend on this?"
+name = "time"
+template = "text-field"
+type = "text"
+[[form.sections.fields]]
+label = "Would you like to share the responsibility for planning the class with someone else?"
+name = "share"
+template = "checkbox"
+type = "checkbox"
+[[form.sections.fields]]
+description = "Name and a bit about the person."
+label = "If so, with who?"
+name = "with_who"
+template = "text-field"
+type = "text"
 
 +++
